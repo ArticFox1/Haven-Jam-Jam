@@ -2,13 +2,13 @@
 
 [ext_resource type="Script" uid="uid://bart62vc6fams" path="res://Haven-Jam-Jam/Scripts/UrMom.gd" id="1_dcn4y"]
 [ext_resource type="SpriteFrames" uid="uid://c87itghqoyelc" path="res://Haven-Jam-Jam/Assets/PlayerAnimations.tres" id="2_fwuqr"]
-[ext_resource type="AudioStream" uid="uid://ctgsb5cis3qr5" path="res://Haven-Jam-Jam/Assets/Sounds/Jumping.wav" id="3_sqqjl"]
-[ext_resource type="AudioStream" uid="uid://daq3bpaxpbqpq" path="res://Haven-Jam-Jam/Assets/Sounds/Walk.wav" id="4_0v0ep"]
-[ext_resource type="AudioStream" uid="uid://vqs8lphp0wl2" path="res://Haven-Jam-Jam/Assets/Sounds/Landing.wav" id="4_o78uq"]
-[ext_resource type="AudioStream" uid="uid://cfuqohtnxsrr0" path="res://Haven-Jam-Jam/Assets/Sounds/Respawn.wav" id="6_kx6um"]
-[ext_resource type="AudioStream" uid="uid://bux1da7eee005" path="res://Haven-Jam-Jam/Assets/Sounds/Death.wav" id="7_g11j0"]
-[ext_resource type="AudioStream" uid="uid://durypgocg4rw8" path="res://Haven-Jam-Jam/Assets/Sounds/Death2.wav" id="8_1wdim"]
-[ext_resource type="AudioStream" uid="uid://lahcinssmjo3" path="res://Haven-Jam-Jam/Assets/Sounds/Background.wav" id="9_1wdim"]
+[ext_resource type="AudioStream" uid="uid://bwwf7oma76nhp" path="res://Haven-Jam-Jam/Assets/Sounds/Jumping.wav" id="3_sqqjl"]
+[ext_resource type="AudioStream" uid="uid://1pjt1bh3pi4x" path="res://Haven-Jam-Jam/Assets/Sounds/Walk.wav" id="4_0v0ep"]
+[ext_resource type="AudioStream" uid="uid://cwbqgd11bdrid" path="res://Haven-Jam-Jam/Assets/Sounds/Landing.wav" id="4_o78uq"]
+[ext_resource type="AudioStream" uid="uid://ds46g68vmt00v" path="res://Haven-Jam-Jam/Assets/Sounds/Respawn.wav" id="6_kx6um"]
+[ext_resource type="AudioStream" uid="uid://djqhie2g5w5h" path="res://Haven-Jam-Jam/Assets/Sounds/Death.wav" id="7_g11j0"]
+[ext_resource type="AudioStream" uid="uid://coxapns3aq86f" path="res://Haven-Jam-Jam/Assets/Sounds/Death2.wav" id="8_1wdim"]
+[ext_resource type="AudioStream" uid="uid://dw36bpgodx6gf" path="res://Haven-Jam-Jam/Assets/Sounds/Background.wav" id="9_1wdim"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kpjcp"]
 size = Vector2(15.9, 31.9)
@@ -23,9 +23,7 @@ script = ExtResource("1_dcn4y")
 
 [node name="Animator" type="AnimatedSprite2D" parent="PlayerCharacter" unique_id=1246692877]
 sprite_frames = ExtResource("2_fwuqr")
-animation = &"Walking"
-frame = 3
-frame_progress = 0.3472173
+animation = &"Idle"
 
 [node name="Hitbox" type="CollisionShape2D" parent="PlayerCharacter" unique_id=252369109]
 shape = SubResource("RectangleShape2D_kpjcp")
